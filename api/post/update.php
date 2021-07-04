@@ -17,7 +17,7 @@
 
     // Get raw posted data
     $data = json_decode(file_get_contents("php://input"));
-
+    
     // Set ID to update (only for update)
     $post->id = $data->id;
 
